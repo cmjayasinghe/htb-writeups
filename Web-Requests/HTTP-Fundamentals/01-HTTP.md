@@ -110,12 +110,12 @@ Before downloading anything, confirm the server is reachable with a basic GET re
 curl http://<TARGET_IP>:<PORT>/
 ```
 
-![Basic curl GET request output](Web-Requests/Screenshots/HTTP-Fundamentals/01-HTTP/1.png)
+![Basic curl GET request output](../Screenshots/HTTP-Fundamentals/01-HTTP/1.png)
 
 
 This confirms the server is up and responding. The `-v` flag can be added to see the full HTTP exchange if needed.
 
-![Basic curl GET request output](Web-Requests/Screenshots/HTTP-Fundamentals/01-HTTP/2.png)
+![Basic curl GET request output](../Screenshots/HTTP-Fundamentals/01-HTTP/2.png)
 
 ---
 
@@ -127,7 +127,7 @@ The task asks us to download the file returned by `/download.php`. We use the `-
 curl -O http://<TARGET_IP>:<PORT>/download.php
 ```
 
-![curl -O download output with progress bar](Web-Requests/Screenshots/HTTP-Fundamentals/01-HTTP/3.png)
+![curl -O download output with progress bar](../Screenshots/HTTP-Fundamentals/01-HTTP/3.png)
 
 The file is now saved in your current directory.
 
@@ -139,7 +139,7 @@ The file is now saved in your current directory.
 ls -la
 ```
 
-![ls output showing downloaded file](Web-Requests/Screenshots/HTTP-Fundamentals/01-HTTP/4.png)
+![ls output showing downloaded file](../Screenshots/HTTP-Fundamentals/01-HTTP/4.png)
 
 ---
 
@@ -149,7 +149,7 @@ ls -la
 cat download.php
 ```
 
-![cat download.php showing the flag](Web-Requests/Screenshots/HTTP-Fundamentals/01-HTTP/5.png)
+![cat download.php showing the flag](../Screenshots/HTTP-Fundamentals/01-HTTP/5.png)
 
 ---
 
@@ -162,7 +162,7 @@ curl -s -O http://<TARGET_IP>:<PORT>/download.php
 cat download.php
 ```
 
-![Silent curl download](Web-Requests/Screenshots/HTTP-Fundamentals/01-HTTP/6.png)
+![Silent curl download](../Screenshots/HTTP-Fundamentals/01-HTTP/6.png)
 
 ---
 
