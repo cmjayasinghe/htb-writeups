@@ -420,8 +420,6 @@ Examples:
 
 ---
 
-*Module: Web Requests*
+*Module: Web Requests | Task 5/8 — HTTP Methods and Codes*  
+*Author: [Chamikara Mihiranga Jayasinghe] | [https://github.com/cmjayasinghe]*
 
-*Section: HTTP Methods and Codes*
-
-*Author: Chamikara Mihiranga Jayasinghe*
